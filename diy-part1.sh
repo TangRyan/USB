@@ -18,4 +18,3 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 sed -i ' $a src-git liuran001_packages https://github.com/liuran001/openwrt-packages ' feeds.conf.default
 #sed -i ' $a src-git small8 https://github.com/kenzok8/small-package ' feeds.conf.default
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/luci-app-passwall
